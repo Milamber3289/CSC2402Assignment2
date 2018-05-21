@@ -34,6 +34,15 @@ int main(){
 	cout<<three.get_number()<<"\n"; //display as integer
 	cout<<three.get_US_style()<<"\n"; //display as US Style
 	cout<<three.get_EURO_style()<<"\n"; //display as EURO style
+
+	//Create Binary four with initial value
+	Binary one(3543);
+	cout<<"Binary four:\n";
+	cout<<one.get_number()<<"\n"; //display as integer
+	cout<<one.get_US_style()<<"\n"; //display as US Style
+	cout<<one.get_EURO_style()<<"\n"; //display as EURO style
+	cout<<one.get_roman_style()<<"\n"; //display as Roman numeral style
+	cout<<one.get_binary_style()<<"\n"; //display as Binary number style
 	
 	return 0;
 }
